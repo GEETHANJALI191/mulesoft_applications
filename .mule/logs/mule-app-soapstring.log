@@ -1,0 +1,94 @@
+INFO  2018-01-05 10:50:17,723 [Mule.app.deployer.monitor.1.thread.1] org.mule.module.launcher.application.DefaultMuleApplication: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'soapstring'                            +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+WARN  2018-01-05 10:50:17,845 [Mule.app.deployer.monitor.1.thread.1] com.mulesoft.module.client.APIPlatformClientCoreExtension: Client ID or Client Secret were not provided. API Manager client is DISABLED for app soapstring
+WARN  2018-01-05 10:50:17,845 [Mule.app.deployer.monitor.1.thread.1] com.mulesoft.module.client.APIPlatformClientCoreExtension: Client ID or Client Secret were not provided. API Manager client is DISABLED for app soapstring
+WARN  2018-01-05 10:50:17,845 [Mule.app.deployer.monitor.1.thread.1] com.mulesoft.module.client.APIPlatformClientCoreExtension: Client ID or Client Secret were not provided. API Manager client is DISABLED for app soapstring
+INFO  2018-01-05 10:50:17,861 [Mule.app.deployer.monitor.1.thread.1] org.mule.lifecycle.AbstractLifecycleManager: Initialising RegistryBroker
+INFO  2018-01-05 10:50:17,861 [Mule.app.deployer.monitor.1.thread.1] org.mule.module.extension.internal.manager.DefaultExtensionManager: Starting discovery of extensions
+INFO  2018-01-05 10:50:18,109 [Mule.app.deployer.monitor.1.thread.1] org.mule.module.extension.internal.manager.DefaultExtensionManager: Discovered 1 extensions
+INFO  2018-01-05 10:50:18,110 [Mule.app.deployer.monitor.1.thread.1] org.mule.module.extension.internal.manager.DefaultExtensionManager: Registering extension validation (version 3.8)
+INFO  2018-01-05 10:50:18,122 [Mule.app.deployer.monitor.1.thread.1] org.mule.config.spring.MuleArtifactContext: Refreshing org.mule.config.spring.MuleArtifactContext@252a3d8e: startup date [Fri Jan 05 10:50:18 IST 2018]; root of context hierarchy
+INFO  2018-01-05 10:50:18,439 [Mule.app.deployer.monitor.1.thread.1] org.mule.module.launcher.application.DefaultMuleApplication: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'soapstring'                            +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ERROR 2018-01-05 10:50:18,723 [Mule.app.deployer.monitor.1.thread.1] org.mule.module.launcher.application.DefaultMuleApplication: null
+java.io.FileNotFoundException: C:\Users\M1043231\AnypointStudio\workspace\.mule\apps\soapstring\soapstring.xml
+	at org.mule.config.ConfigResource.<init>(ConfigResource.java:32) ~[mule-core-3.8.5.jar:3.8.5]
+	at org.mule.config.builders.AbstractResourceConfigurationBuilder.loadConfigResources(AbstractResourceConfigurationBuilder.java:81) ~[mule-core-3.8.5.jar:3.8.5]
+	at org.mule.config.builders.AbstractResourceConfigurationBuilder.<init>(AbstractResourceConfigurationBuilder.java:46) ~[mule-core-3.8.5.jar:3.8.5]
+	at org.mule.config.builders.AutoConfigurationBuilder.<init>(AutoConfigurationBuilder.java:43) ~[mule-core-3.8.5.jar:3.8.5]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_102]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_102]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_102]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:1.8.0_102]
+	at org.mule.util.ClassUtils.instanciateClass(ClassUtils.java:498) ~[mule-core-3.8.5.jar:3.8.5]
+	at org.mule.util.ClassUtils.instanciateClass(ClassUtils.java:533) ~[mule-core-3.8.5.jar:3.8.5]
+	at org.mule.module.launcher.domain.DefaultMuleDomain.createApplicationConfigurationBuilder(DefaultMuleDomain.java:104) ~[mule-module-launcher-3.8.5.jar:3.8.5]
+	at org.mule.module.launcher.domain.DomainWrapper.createApplicationConfigurationBuilder(DomainWrapper.java:47) ~[mule-module-launcher-3.8.5.jar:3.8.5]
+	at org.mule.module.launcher.application.DefaultMuleApplication.init(DefaultMuleApplication.java:185) ~[mule-module-launcher-3.8.5.jar:3.8.5]
+	at org.mule.module.launcher.artifact.ArtifactWrapper$2.execute(ArtifactWrapper.java:63) ~[mule-module-launcher-3.8.5.jar:3.8.5]
+	at org.mule.module.launcher.artifact.ArtifactWrapper.executeWithinArtifactClassLoader(ArtifactWrapper.java:136) ~[mule-module-launcher-3.8.5.jar:3.8.5]
+	at org.mule.module.launcher.artifact.ArtifactWrapper.init(ArtifactWrapper.java:58) ~[mule-module-launcher-3.8.5.jar:3.8.5]
+	at org.mule.module.launcher.DefaultArtifactDeployer.deploy(DefaultArtifactDeployer.java:25) ~[mule-module-launcher-3.8.5.jar:3.8.5]
+	at org.mule.module.launcher.DefaultArchiveDeployer.redeploy(DefaultArchiveDeployer.java:470) ~[mule-module-launcher-3.8.5.jar:3.8.5]
+	at org.mule.module.launcher.DeploymentDirectoryWatcher.redeployModifiedArtifacts(DeploymentDirectoryWatcher.java:562) ~[mule-module-launcher-3.8.5.jar:3.8.5]
+	at org.mule.module.launcher.DeploymentDirectoryWatcher.redeployModifiedApplications(DeploymentDirectoryWatcher.java:539) ~[mule-module-launcher-3.8.5.jar:3.8.5]
+	at org.mule.module.launcher.DeploymentDirectoryWatcher.run(DeploymentDirectoryWatcher.java:352) ~[mule-module-launcher-3.8.5.jar:3.8.5]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_102]
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source) ~[?:1.8.0_102]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source) ~[?:1.8.0_102]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[?:1.8.0_102]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_102]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_102]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_102]
+INFO  2018-01-05 10:50:18,739 [Mule.app.deployer.monitor.1.thread.1] org.mule.module.launcher.application.DefaultMuleApplication: App 'soapstring' never started, nothing to dispose of
+INFO  2018-01-05 10:50:19,287 [Mule.app.deployer.monitor.1.thread.1] org.mule.lifecycle.AbstractLifecycleManager: Disposing RegistryBroker
+ERROR 2018-01-05 10:50:19,334 [Mule.app.deployer.monitor.1.thread.1] org.mule.module.launcher.application.DefaultMuleApplication: null
+java.io.FileNotFoundException: C:\Users\M1043231\AnypointStudio\workspace\.mule\apps\soapstring\soapstring.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_102]
+	at java.io.FileInputStream.open(Unknown Source) ~[?:1.8.0_102]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[?:1.8.0_102]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[?:1.8.0_102]
+	at sun.net.www.protocol.file.FileURLConnection.connect(Unknown Source) ~[?:1.8.0_102]
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(Unknown Source) ~[?:1.8.0_102]
+	at org.springframework.core.io.UrlResource.getInputStream(UrlResource.java:168) ~[spring-core-4.1.9.RELEASE.jar:4.1.9.RELEASE]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:330) ~[spring-beans-4.1.9.RELEASE.jar:4.1.9.RELEASE]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304) ~[spring-beans-4.1.9.RELEASE.jar:4.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:181) ~[spring-beans-4.1.9.RELEASE.jar:4.1.9.RELEASE]
+	at org.mule.config.spring.MuleArtifactContext.loadBeanDefinitions(MuleArtifactContext.java:192) ~[mule-module-spring-config-3.8.5.jar:3.8.5]
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:129) ~[spring-context-4.1.9.RELEASE.jar:4.1.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:541) ~[spring-context-4.1.9.RELEASE.jar:4.1.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:452) ~[spring-context-4.1.9.RELEASE.jar:4.1.9.RELEASE]
+	at org.mule.config.spring.SpringRegistry.doInitialise(SpringRegistry.java:108) ~[mule-module-spring-config-3.8.5.jar:3.8.5]
+	at org.mule.registry.AbstractRegistry.initialise(AbstractRegistry.java:104) ~[mule-core-3.8.5.jar:3.8.5]
+	at org.mule.config.spring.SpringXmlConfigurationBuilder.createSpringRegistry(SpringXmlConfigurationBuilder.java:177) ~[mule-module-spring-config-3.8.5.jar:3.8.5]
+	at org.mule.config.spring.SpringXmlConfigurationBuilder.doConfigure(SpringXmlConfigurationBuilder.java:100) ~[mule-module-spring-config-3.8.5.jar:3.8.5]
+	at org.mule.config.builders.AbstractConfigurationBuilder.configure(AbstractConfigurationBuilder.java:43) ~[mule-core-3.8.5.jar:3.8.5]
+	at org.mule.config.builders.AbstractResourceConfigurationBuilder.configure(AbstractResourceConfigurationBuilder.java:69) ~[mule-core-3.8.5.jar:3.8.5]
+	at org.mule.config.builders.AutoConfigurationBuilder.autoConfigure(AutoConfigurationBuilder.java:102) ~[mule-core-3.8.5.jar:3.8.5]
+	at org.mule.config.builders.AutoConfigurationBuilder.doConfigure(AutoConfigurationBuilder.java:54) ~[mule-core-3.8.5.jar:3.8.5]
+	at org.mule.config.builders.AbstractConfigurationBuilder.configure(AbstractConfigurationBuilder.java:43) ~[mule-core-3.8.5.jar:3.8.5]
+	at org.mule.config.builders.AbstractResourceConfigurationBuilder.configure(AbstractResourceConfigurationBuilder.java:69) ~[mule-core-3.8.5.jar:3.8.5]
+	at org.mule.context.DefaultMuleContextFactory$1.configure(DefaultMuleContextFactory.java:89) ~[mule-core-3.8.5.jar:3.8.5]
+	at org.mule.context.DefaultMuleContextFactory.doCreateMuleContext(DefaultMuleContextFactory.java:222) ~[mule-core-3.8.5.jar:3.8.5]
+	at org.mule.context.DefaultMuleContextFactory.createMuleContext(DefaultMuleContextFactory.java:81) ~[mule-core-3.8.5.jar:3.8.5]
+	at org.mule.module.launcher.application.DefaultMuleApplication.init(DefaultMuleApplication.java:203) ~[mule-module-launcher-3.8.5.jar:3.8.5]
+	at org.mule.module.launcher.artifact.ArtifactWrapper$2.execute(ArtifactWrapper.java:63) ~[mule-module-launcher-3.8.5.jar:3.8.5]
+	at org.mule.module.launcher.artifact.ArtifactWrapper.executeWithinArtifactClassLoader(ArtifactWrapper.java:136) ~[mule-module-launcher-3.8.5.jar:3.8.5]
+	at org.mule.module.launcher.artifact.ArtifactWrapper.init(ArtifactWrapper.java:58) ~[mule-module-launcher-3.8.5.jar:3.8.5]
+	at org.mule.module.launcher.DefaultArtifactDeployer.deploy(DefaultArtifactDeployer.java:25) ~[mule-module-launcher-3.8.5.jar:3.8.5]
+	at org.mule.module.launcher.DefaultArchiveDeployer.redeploy(DefaultArchiveDeployer.java:470) ~[mule-module-launcher-3.8.5.jar:3.8.5]
+	at org.mule.module.launcher.DeploymentDirectoryWatcher.redeployModifiedArtifacts(DeploymentDirectoryWatcher.java:562) ~[mule-module-launcher-3.8.5.jar:3.8.5]
+	at org.mule.module.launcher.DeploymentDirectoryWatcher.redeployModifiedApplications(DeploymentDirectoryWatcher.java:539) ~[mule-module-launcher-3.8.5.jar:3.8.5]
+	at org.mule.module.launcher.DeploymentDirectoryWatcher.run(DeploymentDirectoryWatcher.java:352) ~[mule-module-launcher-3.8.5.jar:3.8.5]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_102]
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source) ~[?:1.8.0_102]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source) ~[?:1.8.0_102]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[?:1.8.0_102]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_102]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_102]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_102]
+INFO  2018-01-05 10:50:19,334 [Mule.app.deployer.monitor.1.thread.1] org.mule.module.launcher.application.DefaultMuleApplication: App 'soapstring' never started, nothing to dispose of

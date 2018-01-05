@@ -1,0 +1,1027 @@
+2018-01-05 09:31:19,343 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'soapadd'                               +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-01-05 09:31:19,635 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2018-01-05 09:31:19,828 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2018-01-05 09:31:20,008 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2018-01-05 09:31:20,020 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.8)
+2018-01-05 09:31:20,156 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@3d6300e8: startup date [Fri Jan 05 09:31:20 IST 2018]; root of context hierarchy
+2018-01-05 09:31:22,511 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-01-05 09:31:23,611 [main] WARN  org.mule.module.ognl.expression.OgnlExpressionEvaluator - OGNL module is deprecated and will be removed in Mule 4.0. Use MEL expressions instead.
+2018-01-05 09:31:24,675 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-tx-log\tx1.log and C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-tx-log\tx2.log
+2018-01-05 09:31:24,755 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-xa-tx-log\tx1.log and C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-xa-tx-log\tx2.log
+2018-01-05 09:31:24,886 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2018-01-05 09:31:24,902 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: soapaddFlow
+2018-01-05 09:31:24,902 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@1ddc6db2
+2018-01-05 09:31:24,933 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: soapaddFlow.stage1
+2018-01-05 09:31:25,418 [main] INFO  org.mule.module.cxf.config.WebServiceFactoryBean - Built CXF Inbound MessageProcessor for service class soapadd.addclass
+2018-01-05 09:31:26,697 [main] INFO  org.mule.component.ComponentLifecycleManager - Initialising component: component.356539350
+2018-01-05 09:31:27,234 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Users\M1043231\AnypointStudio\workspace\.mule\apps\soapadd\soapadd.xml'}]"
+2018-01-05 09:31:27,234 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Users\M1043231\AnypointStudio\workspace\.mule\apps\soapadd\soapadd.xml'}]"
+2018-01-05 09:31:30,296 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'soapadd'                                   +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-01-05 09:31:30,306 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2018-01-05 09:31:30,306 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2018-01-05 09:31:30,448 [main] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://0.0.0.0:8081
+2018-01-05 09:31:30,448 [main] INFO  org.mule.modules.oauth2.provider.agents.DefaultSplashScreenAgent - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ DevKit Extensions (0) used in this application 
+                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-01-05 09:31:30,464 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2018-01-05 09:31:30,464 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: soapaddFlow
+2018-01-05 09:31:30,464 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: soapaddFlow.stage1
+2018-01-05 09:31:30,464 [main] INFO  org.mule.component.ComponentLifecycleManager - Starting component: component.356539350
+2018-01-05 09:31:30,542 [main] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2018-01-05 09:31:30,598 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: soapadd                                               *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   DevKit Extension Information                                     *
+*   JMX Agent                                                        *
+*   Batch module default engine                                      *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2018-01-05 09:40:12,517 [[soapadd].HTTP_Listener_Configuration.worker.01] INFO  org.mule.module.http.internal.listener.HttpListenerRegistry - No listener found for request: (GET)/ws
+2018-01-05 09:40:12,517 [[soapadd].HTTP_Listener_Configuration.worker.01] INFO  org.mule.module.http.internal.listener.HttpListenerRegistry - Available listeners are: [(*)/soap/]
+2018-01-05 09:46:01,595 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'soapadd'                               +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-01-05 09:46:01,843 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2018-01-05 09:46:01,999 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2018-01-05 09:46:02,204 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2018-01-05 09:46:02,208 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.8)
+2018-01-05 09:46:02,329 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@3d6300e8: startup date [Fri Jan 05 09:46:02 IST 2018]; root of context hierarchy
+2018-01-05 09:46:04,374 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-01-05 09:46:05,359 [main] WARN  org.mule.module.ognl.expression.OgnlExpressionEvaluator - OGNL module is deprecated and will be removed in Mule 4.0. Use MEL expressions instead.
+2018-01-05 09:46:06,423 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-tx-log\tx1.log and C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-tx-log\tx2.log
+2018-01-05 09:46:06,448 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-xa-tx-log\tx1.log and C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-xa-tx-log\tx2.log
+2018-01-05 09:46:06,610 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2018-01-05 09:46:06,610 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: soapaddFlow
+2018-01-05 09:46:06,610 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@1b01a0d
+2018-01-05 09:46:06,657 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: soapaddFlow.stage1
+2018-01-05 09:46:07,343 [main] INFO  org.mule.module.cxf.config.WebServiceFactoryBean - Built CXF Inbound MessageProcessor for service class soapadd.addclass
+2018-01-05 09:46:08,126 [main] INFO  org.mule.component.ComponentLifecycleManager - Initialising component: component.356539350
+2018-01-05 09:46:08,531 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Users\M1043231\AnypointStudio\workspace\.mule\apps\soapadd\soapadd.xml'}]"
+2018-01-05 09:46:08,531 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Users\M1043231\AnypointStudio\workspace\.mule\apps\soapadd\soapadd.xml'}]"
+2018-01-05 09:46:11,581 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'soapadd'                                   +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-01-05 09:46:11,593 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2018-01-05 09:46:11,593 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2018-01-05 09:46:11,674 [main] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://0.0.0.0:8081
+2018-01-05 09:46:11,674 [main] INFO  org.mule.modules.oauth2.provider.agents.DefaultSplashScreenAgent - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ DevKit Extensions (0) used in this application 
+                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-01-05 09:46:11,689 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2018-01-05 09:46:11,689 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: soapaddFlow
+2018-01-05 09:46:11,689 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: soapaddFlow.stage1
+2018-01-05 09:46:11,689 [main] INFO  org.mule.component.ComponentLifecycleManager - Starting component: component.356539350
+2018-01-05 09:46:11,777 [main] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2018-01-05 09:46:11,817 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: soapadd                                               *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   DevKit Extension Information                                     *
+*   JMX Agent                                                        *
+*   Batch module default engine                                      *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2018-01-05 09:46:46,939 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Stopping app 'soapadd'                                   +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-01-05 09:46:46,941 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Stopping flow: soapaddFlow
+2018-01-05 09:46:46,941 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Stopping service: soapaddFlow.stage1
+2018-01-05 09:46:47,085 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.component.ComponentLifecycleManager - Stopping component: component.356539350
+2018-01-05 09:46:47,087 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Stopping model: _muleSystemModel
+2018-01-05 09:46:47,154 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Stopped listener on http://0.0.0.0:8081
+2018-01-05 09:46:47,157 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Stopping ResourceManager
+2018-01-05 09:46:47,157 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Stopped ResourceManager
+2018-01-05 09:46:47,162 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Disposing app 'soapadd'                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-01-05 09:46:47,162 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing RegistryBroker
+2018-01-05 09:46:47,162 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Disposing flow: soapaddFlow
+2018-01-05 09:46:47,162 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Disposing service: soapaddFlow.stage1
+2018-01-05 09:46:47,177 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.component.ComponentLifecycleManager - Disposing component: component.356539350
+2018-01-05 09:46:47,177 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing model: _muleSystemModel
+2018-01-05 09:46:47,405 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.MuleArtifactContext - Closing org.mule.config.spring.MuleArtifactContext@3d6300e8: startup date [Fri Jan 05 09:46:02 IST 2018]; root of context hierarchy
+2018-01-05 09:46:47,610 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application "soapadd" shut down normally on: 1/5/18 9:46 AM        *
+* Up for: 0 days, 0 hours, 0 mins, 36.29 sec                         *
+**********************************************************************
+2018-01-05 09:46:47,781 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'soapadd'                               +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-01-05 09:46:47,789 [Mule.app.deployer.monitor.1.thread.1] WARN  com.mulesoft.module.client.APIPlatformClientCoreExtension - Client ID or Client Secret were not provided. API Manager client is DISABLED for app soapadd
+2018-01-05 09:46:47,793 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2018-01-05 09:46:47,803 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2018-01-05 09:46:47,842 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2018-01-05 09:46:47,842 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.8)
+2018-01-05 09:46:47,842 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@4ef6c2e6: startup date [Fri Jan 05 09:46:47 IST 2018]; root of context hierarchy
+2018-01-05 09:46:48,250 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-01-05 09:46:48,456 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-tx-log\tx1.log and C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-tx-log\tx2.log
+2018-01-05 09:46:48,461 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-xa-tx-log\tx1.log and C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-xa-tx-log\tx2.log
+2018-01-05 09:46:48,494 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2018-01-05 09:46:48,510 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: soapaddFlow
+2018-01-05 09:46:48,510 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@64f26b47
+2018-01-05 09:46:48,526 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: soapaddFlow.stage1
+2018-01-05 09:46:48,541 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.cxf.config.WebServiceFactoryBean - Built CXF Inbound MessageProcessor for service class soapadd.addclass
+2018-01-05 09:46:48,595 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.component.ComponentLifecycleManager - Initialising component: component.839773354
+2018-01-05 09:46:48,658 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Users\M1043231\AnypointStudio\workspace\.mule\apps\soapadd\soapadd.xml'}]"
+2018-01-05 09:46:48,658 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Users\M1043231\AnypointStudio\workspace\.mule\apps\soapadd\soapadd.xml'}]"
+2018-01-05 09:46:51,659 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'soapadd'                                   +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-01-05 09:46:51,661 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2018-01-05 09:46:51,661 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2018-01-05 09:46:51,677 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://0.0.0.0:8081
+2018-01-05 09:46:51,677 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.modules.oauth2.provider.agents.DefaultSplashScreenAgent - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ DevKit Extensions (0) used in this application 
+                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-01-05 09:46:51,677 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2018-01-05 09:46:51,693 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: soapaddFlow
+2018-01-05 09:46:51,693 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: soapaddFlow.stage1
+2018-01-05 09:46:51,693 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.component.ComponentLifecycleManager - Starting component: component.839773354
+2018-01-05 09:46:51,708 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2018-01-05 09:46:51,708 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: soapadd                                               *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   DevKit Extension Information                                     *
+*   JMX Agent                                                        *
+*   Batch module default engine                                      *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2018-01-05 09:59:11,492 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'soapadd'                               +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-01-05 09:59:11,492 [main] WARN  com.mulesoft.module.client.APIPlatformClientCoreExtension - Client ID or Client Secret were not provided. API Manager client is DISABLED for app consumeadd
+2018-01-05 09:59:11,507 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2018-01-05 09:59:11,507 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2018-01-05 09:59:11,546 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2018-01-05 09:59:11,546 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.8)
+2018-01-05 09:59:11,554 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@53cddaf8: startup date [Fri Jan 05 09:59:11 IST 2018]; root of context hierarchy
+2018-01-05 09:59:12,277 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-01-05 09:59:12,619 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-tx-log\tx1.log and C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-tx-log\tx2.log
+2018-01-05 09:59:12,635 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-xa-tx-log\tx1.log and C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-xa-tx-log\tx2.log
+2018-01-05 09:59:12,650 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2018-01-05 09:59:12,650 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: soapaddFlow
+2018-01-05 09:59:12,650 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@915d7c4
+2018-01-05 09:59:12,666 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: soapaddFlow.stage1
+2018-01-05 09:59:12,713 [main] INFO  org.mule.module.cxf.config.WebServiceFactoryBean - Built CXF Inbound MessageProcessor for service class soapadd.addclass
+2018-01-05 09:59:13,418 [main] INFO  org.mule.component.ComponentLifecycleManager - Initialising component: component.1360209172
+2018-01-05 09:59:13,496 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Users\M1043231\AnypointStudio\workspace\.mule\apps\soapadd\soapadd.xml'}]"
+2018-01-05 09:59:13,496 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Users\M1043231\AnypointStudio\workspace\.mule\apps\soapadd\soapadd.xml'}]"
+2018-01-05 09:59:16,523 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'soapadd'                                   +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-01-05 09:59:16,530 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2018-01-05 09:59:16,530 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2018-01-05 09:59:16,587 [main] ERROR org.mule.module.launcher.application.DefaultMuleApplication - 
+********************************************************************************
+Message               : Failed to invoke lifecycle phase "start" on object: org.mule.module.http.internal.listener.DefaultHttpListenerConfig@416a4275
+Element               : /HTTP_Listener_Configuration @ app:soapadd.xml:10 (HTTP Listener Configuration)
+--------------------------------------------------------------------------------
+Root Exception stack trace:
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at org.glassfish.grizzly.nio.transport.TCPNIOBindingHandler.bindToChannelAndAddress(TCPNIOBindingHandler.java:131)
+	at org.glassfish.grizzly.nio.transport.TCPNIOBindingHandler.bind(TCPNIOBindingHandler.java:88)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.bind(TCPNIOTransport.java:239)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.bind(TCPNIOTransport.java:219)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.bind(TCPNIOTransport.java:210)
+	at org.mule.module.http.internal.listener.grizzly.GrizzlyServer.start(GrizzlyServer.java:41)
+	at org.mule.module.http.internal.listener.DefaultHttpListenerConfig.start(DefaultHttpListenerConfig.java:274)
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.mule.lifecycle.phases.DefaultLifecyclePhase.applyLifecycle(DefaultLifecyclePhase.java:237)
+	at org.mule.lifecycle.RegistryLifecycleCallback.doApplyLifecycle(RegistryLifecycleCallback.java:99)
+	at org.mule.lifecycle.RegistryLifecycleCallback.onTransition(RegistryLifecycleCallback.java:71)
+	at org.mule.lifecycle.RegistryLifecycleManager.invokePhase(RegistryLifecycleManager.java:155)
+	at org.mule.lifecycle.RegistryLifecycleManager.fireLifecycle(RegistryLifecycleManager.java:126)
+	at org.mule.registry.AbstractRegistryBroker.fireLifecycle(AbstractRegistryBroker.java:88)
+	at org.mule.registry.MuleRegistryHelper.fireLifecycle(MuleRegistryHelper.java:141)
+	at org.mule.lifecycle.MuleContextLifecycleManager$MuleContextLifecycleCallback.onTransition(MuleContextLifecycleManager.java:91)
+	at org.mule.lifecycle.MuleContextLifecycleManager$MuleContextLifecycleCallback.onTransition(MuleContextLifecycleManager.java:87)
+	at org.mule.lifecycle.MuleContextLifecycleManager.invokePhase(MuleContextLifecycleManager.java:69)
+	at org.mule.lifecycle.MuleContextLifecycleManager.fireLifecycle(MuleContextLifecycleManager.java:61)
+	at org.mule.DefaultMuleContext.start(DefaultMuleContext.java:317)
+	at org.mule.module.launcher.application.DefaultMuleApplication.start(DefaultMuleApplication.java:139)
+	at org.mule.module.launcher.artifact.ArtifactWrapper$4.execute(ArtifactWrapper.java:105)
+	at org.mule.module.launcher.artifact.ArtifactWrapper.executeWithinArtifactClassLoader(ArtifactWrapper.java:136)
+	at org.mule.module.launcher.artifact.ArtifactWrapper.start(ArtifactWrapper.java:100)
+	at org.mule.module.launcher.DefaultArtifactDeployer.deploy(DefaultArtifactDeployer.java:26)
+	at org.mule.module.launcher.DefaultArchiveDeployer.deployArtifact(DefaultArchiveDeployer.java:317)
+	at org.mule.module.launcher.DefaultArchiveDeployer.deployPackagedArtifact(DefaultArchiveDeployer.java:172)
+	at org.mule.module.launcher.DefaultArchiveDeployer.deployPackagedArtifact(DefaultArchiveDeployer.java:261)
+	at org.mule.module.launcher.DefaultArchiveDeployer.deployPackagedArtifact(DefaultArchiveDeployer.java:76)
+	at org.mule.module.launcher.DeploymentDirectoryWatcher.deployPackedApps(DeploymentDirectoryWatcher.java:279)
+	at org.mule.module.launcher.DeploymentDirectoryWatcher.start(DeploymentDirectoryWatcher.java:151)
+	at org.mule.module.launcher.MuleDeploymentService.start(MuleDeploymentService.java:134)
+	at org.mule.module.launcher.MuleContainer.start(MuleContainer.java:172)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.mule.tooling.server.application.ApplicationDeployer.main(ApplicationDeployer.java:33)
+
+********************************************************************************
+
+2018-01-05 09:59:16,587 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Disposing app 'soapadd'                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-01-05 09:59:16,587 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing RegistryBroker
+2018-01-05 09:59:16,587 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Disposing flow: soapaddFlow
+2018-01-05 09:59:16,587 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Disposing service: soapaddFlow.stage1
+2018-01-05 09:59:16,603 [main] INFO  org.mule.component.ComponentLifecycleManager - Disposing component: component.1360209172
+2018-01-05 09:59:16,603 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing model: _muleSystemModel
+2018-01-05 09:59:16,765 [main] INFO  org.mule.config.spring.MuleArtifactContext - Closing org.mule.config.spring.MuleArtifactContext@53cddaf8: startup date [Fri Jan 05 09:59:11 IST 2018]; root of context hierarchy
+2018-01-05 09:59:16,789 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application "soapadd" shut down normally on: 1/5/18 9:59 AM        *
+* Up for: 0 days, 0 hours, 0 mins, 0.264 sec                         *
+**********************************************************************
+2018-01-05 10:01:42,335 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'soapadd'                               +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-01-05 10:01:42,335 [Mule.app.deployer.monitor.1.thread.1] WARN  com.mulesoft.module.client.APIPlatformClientCoreExtension - Client ID or Client Secret were not provided. API Manager client is DISABLED for app consumeadd
+2018-01-05 10:01:42,335 [Mule.app.deployer.monitor.1.thread.1] WARN  com.mulesoft.module.client.APIPlatformClientCoreExtension - Client ID or Client Secret were not provided. API Manager client is DISABLED for app soapadd
+2018-01-05 10:01:42,350 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2018-01-05 10:01:42,350 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2018-01-05 10:01:42,381 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2018-01-05 10:01:42,381 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.8)
+2018-01-05 10:01:42,397 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@70b4fd23: startup date [Fri Jan 05 10:01:42 IST 2018]; root of context hierarchy
+2018-01-05 10:01:42,713 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-01-05 10:01:42,883 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-tx-log\tx1.log and C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-tx-log\tx2.log
+2018-01-05 10:01:42,883 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-xa-tx-log\tx1.log and C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-xa-tx-log\tx2.log
+2018-01-05 10:01:42,899 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2018-01-05 10:01:42,899 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: soapaddFlow
+2018-01-05 10:01:42,914 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@223042c5
+2018-01-05 10:01:42,914 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: soapaddFlow.stage1
+2018-01-05 10:01:42,946 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.cxf.config.WebServiceFactoryBean - Built CXF Inbound MessageProcessor for service class soapadd.addclass
+2018-01-05 10:01:43,024 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.component.ComponentLifecycleManager - Initialising component: component.818313964
+2018-01-05 10:01:43,087 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Users\M1043231\AnypointStudio\workspace\.mule\apps\soapadd\soapadd.xml'}]"
+2018-01-05 10:01:43,087 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Users\M1043231\AnypointStudio\workspace\.mule\apps\soapadd\soapadd.xml'}]"
+2018-01-05 10:01:46,087 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'soapadd'                                   +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-01-05 10:01:46,093 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2018-01-05 10:01:46,093 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2018-01-05 10:01:46,172 [Mule.app.deployer.monitor.1.thread.1] ERROR org.mule.module.launcher.application.DefaultMuleApplication - 
+********************************************************************************
+Message               : Failed to invoke lifecycle phase "start" on object: org.mule.module.http.internal.listener.DefaultHttpListenerConfig@6cf6a78
+Element               : /HTTP_Listener_Configuration @ app:soapadd.xml:10 (HTTP Listener Configuration)
+--------------------------------------------------------------------------------
+Root Exception stack trace:
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at org.glassfish.grizzly.nio.transport.TCPNIOBindingHandler.bindToChannelAndAddress(TCPNIOBindingHandler.java:131)
+	at org.glassfish.grizzly.nio.transport.TCPNIOBindingHandler.bind(TCPNIOBindingHandler.java:88)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.bind(TCPNIOTransport.java:239)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.bind(TCPNIOTransport.java:219)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.bind(TCPNIOTransport.java:210)
+	at org.mule.module.http.internal.listener.grizzly.GrizzlyServer.start(GrizzlyServer.java:41)
+	at org.mule.module.http.internal.listener.DefaultHttpListenerConfig.start(DefaultHttpListenerConfig.java:274)
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.mule.lifecycle.phases.DefaultLifecyclePhase.applyLifecycle(DefaultLifecyclePhase.java:237)
+	at org.mule.lifecycle.RegistryLifecycleCallback.doApplyLifecycle(RegistryLifecycleCallback.java:99)
+	at org.mule.lifecycle.RegistryLifecycleCallback.onTransition(RegistryLifecycleCallback.java:71)
+	at org.mule.lifecycle.RegistryLifecycleManager.invokePhase(RegistryLifecycleManager.java:155)
+	at org.mule.lifecycle.RegistryLifecycleManager.fireLifecycle(RegistryLifecycleManager.java:126)
+	at org.mule.registry.AbstractRegistryBroker.fireLifecycle(AbstractRegistryBroker.java:88)
+	at org.mule.registry.MuleRegistryHelper.fireLifecycle(MuleRegistryHelper.java:141)
+	at org.mule.lifecycle.MuleContextLifecycleManager$MuleContextLifecycleCallback.onTransition(MuleContextLifecycleManager.java:91)
+	at org.mule.lifecycle.MuleContextLifecycleManager$MuleContextLifecycleCallback.onTransition(MuleContextLifecycleManager.java:87)
+	at org.mule.lifecycle.MuleContextLifecycleManager.invokePhase(MuleContextLifecycleManager.java:69)
+	at org.mule.lifecycle.MuleContextLifecycleManager.fireLifecycle(MuleContextLifecycleManager.java:61)
+	at org.mule.DefaultMuleContext.start(DefaultMuleContext.java:317)
+	at org.mule.module.launcher.application.DefaultMuleApplication.start(DefaultMuleApplication.java:139)
+	at org.mule.module.launcher.artifact.ArtifactWrapper$4.execute(ArtifactWrapper.java:105)
+	at org.mule.module.launcher.artifact.ArtifactWrapper.executeWithinArtifactClassLoader(ArtifactWrapper.java:136)
+	at org.mule.module.launcher.artifact.ArtifactWrapper.start(ArtifactWrapper.java:100)
+	at org.mule.module.launcher.DefaultArtifactDeployer.deploy(DefaultArtifactDeployer.java:26)
+	at org.mule.module.launcher.DefaultArchiveDeployer.redeploy(DefaultArchiveDeployer.java:470)
+	at org.mule.module.launcher.DeploymentDirectoryWatcher.redeployModifiedArtifacts(DeploymentDirectoryWatcher.java:562)
+	at org.mule.module.launcher.DeploymentDirectoryWatcher.redeployModifiedApplications(DeploymentDirectoryWatcher.java:539)
+	at org.mule.module.launcher.DeploymentDirectoryWatcher.run(DeploymentDirectoryWatcher.java:352)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+********************************************************************************
+
+2018-01-05 10:01:46,172 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Disposing app 'soapadd'                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-01-05 10:01:46,172 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing RegistryBroker
+2018-01-05 10:01:46,172 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Disposing flow: soapaddFlow
+2018-01-05 10:01:46,172 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Disposing service: soapaddFlow.stage1
+2018-01-05 10:01:46,172 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.component.ComponentLifecycleManager - Disposing component: component.818313964
+2018-01-05 10:01:46,172 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing model: _muleSystemModel
+2018-01-05 10:01:46,203 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.MuleArtifactContext - Closing org.mule.config.spring.MuleArtifactContext@70b4fd23: startup date [Fri Jan 05 10:01:42 IST 2018]; root of context hierarchy
+2018-01-05 10:01:46,266 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application "soapadd" shut down normally on: 1/5/18 10:01 AM       *
+* Up for: 0 days, 0 hours, 0 mins, 0.179 sec                         *
+**********************************************************************
+2018-01-05 13:36:48,665 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'soapadd'                               +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-01-05 13:36:48,923 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2018-01-05 13:36:49,069 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2018-01-05 13:36:49,273 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2018-01-05 13:36:49,274 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.8)
+2018-01-05 13:36:49,386 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@3d6300e8: startup date [Fri Jan 05 13:36:49 IST 2018]; root of context hierarchy
+2018-01-05 13:36:51,421 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-01-05 13:36:52,669 [main] WARN  org.mule.module.ognl.expression.OgnlExpressionEvaluator - OGNL module is deprecated and will be removed in Mule 4.0. Use MEL expressions instead.
+2018-01-05 13:36:53,717 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-tx-log\tx1.log and C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-tx-log\tx2.log
+2018-01-05 13:36:53,758 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-xa-tx-log\tx1.log and C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-xa-tx-log\tx2.log
+2018-01-05 13:36:53,944 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2018-01-05 13:36:53,944 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: soapaddFlow
+2018-01-05 13:36:53,944 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@1b01a0d
+2018-01-05 13:36:54,006 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: soapaddFlow.stage1
+2018-01-05 13:36:54,384 [main] INFO  org.mule.module.cxf.config.WebServiceFactoryBean - Built CXF Inbound MessageProcessor for service class soapadd.addclass
+2018-01-05 13:36:55,428 [main] INFO  org.mule.component.ComponentLifecycleManager - Initialising component: component.356539350
+2018-01-05 13:36:55,823 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Users\M1043231\AnypointStudio\workspace\.mule\apps\soapadd\soapadd.xml'}]"
+2018-01-05 13:36:55,823 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Users\M1043231\AnypointStudio\workspace\.mule\apps\soapadd\soapadd.xml'}]"
+2018-01-05 13:36:58,853 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'soapadd'                                   +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-01-05 13:36:58,865 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2018-01-05 13:36:58,865 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2018-01-05 13:36:58,944 [main] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://localhost:8081
+2018-01-05 13:36:58,944 [main] INFO  org.mule.modules.oauth2.provider.agents.DefaultSplashScreenAgent - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ DevKit Extensions (0) used in this application 
+                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-01-05 13:36:58,944 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2018-01-05 13:36:58,960 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: soapaddFlow
+2018-01-05 13:36:58,960 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: soapaddFlow.stage1
+2018-01-05 13:36:58,960 [main] INFO  org.mule.component.ComponentLifecycleManager - Starting component: component.356539350
+2018-01-05 13:36:59,053 [main] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2018-01-05 13:37:03,647 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: soapadd                                               *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   DevKit Extension Information                                     *
+*   JMX Agent                                                        *
+*   Batch module default engine                                      *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2018-01-05 13:45:23,099 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'soapadd'                               +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-01-05 13:45:23,115 [main] WARN  com.mulesoft.module.client.APIPlatformClientCoreExtension - Client ID or Client Secret were not provided. API Manager client is DISABLED for app consumeadd
+2018-01-05 13:45:23,115 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2018-01-05 13:45:23,115 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2018-01-05 13:45:23,131 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2018-01-05 13:45:23,131 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.8)
+2018-01-05 13:45:23,146 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@7c901203: startup date [Fri Jan 05 13:45:23 IST 2018]; root of context hierarchy
+2018-01-05 13:45:23,567 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-01-05 13:45:23,790 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-tx-log\tx1.log and C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-tx-log\tx2.log
+2018-01-05 13:45:23,797 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-xa-tx-log\tx1.log and C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-xa-tx-log\tx2.log
+2018-01-05 13:45:23,815 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2018-01-05 13:45:23,815 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: soapaddFlow
+2018-01-05 13:45:23,815 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@915d7c4
+2018-01-05 13:45:23,831 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: soapaddFlow.stage1
+2018-01-05 13:45:23,909 [main] INFO  org.mule.module.cxf.config.WebServiceFactoryBean - Built CXF Inbound MessageProcessor for service class soapadd.addclass
+2018-01-05 13:45:24,567 [main] INFO  org.mule.component.ComponentLifecycleManager - Initialising component: component.727868092
+2018-01-05 13:45:24,630 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Users\M1043231\AnypointStudio\workspace\.mule\apps\soapadd\soapadd.xml'}]"
+2018-01-05 13:45:24,630 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Users\M1043231\AnypointStudio\workspace\.mule\apps\soapadd\soapadd.xml'}]"
+2018-01-05 13:45:27,630 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'soapadd'                                   +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-01-05 13:45:27,634 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2018-01-05 13:45:27,634 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2018-01-05 13:45:27,671 [main] ERROR org.mule.module.launcher.application.DefaultMuleApplication - 
+********************************************************************************
+Message               : Failed to invoke lifecycle phase "start" on object: org.mule.module.http.internal.listener.DefaultHttpListenerConfig@c6a692e
+Element               : /HTTP_Listener_Configuration @ app:soapadd.xml:10 (HTTP Listener Configuration)
+--------------------------------------------------------------------------------
+Root Exception stack trace:
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at org.glassfish.grizzly.nio.transport.TCPNIOBindingHandler.bindToChannelAndAddress(TCPNIOBindingHandler.java:131)
+	at org.glassfish.grizzly.nio.transport.TCPNIOBindingHandler.bind(TCPNIOBindingHandler.java:88)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.bind(TCPNIOTransport.java:239)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.bind(TCPNIOTransport.java:219)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.bind(TCPNIOTransport.java:210)
+	at org.mule.module.http.internal.listener.grizzly.GrizzlyServer.start(GrizzlyServer.java:41)
+	at org.mule.module.http.internal.listener.DefaultHttpListenerConfig.start(DefaultHttpListenerConfig.java:274)
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.mule.lifecycle.phases.DefaultLifecyclePhase.applyLifecycle(DefaultLifecyclePhase.java:237)
+	at org.mule.lifecycle.RegistryLifecycleCallback.doApplyLifecycle(RegistryLifecycleCallback.java:99)
+	at org.mule.lifecycle.RegistryLifecycleCallback.onTransition(RegistryLifecycleCallback.java:71)
+	at org.mule.lifecycle.RegistryLifecycleManager.invokePhase(RegistryLifecycleManager.java:155)
+	at org.mule.lifecycle.RegistryLifecycleManager.fireLifecycle(RegistryLifecycleManager.java:126)
+	at org.mule.registry.AbstractRegistryBroker.fireLifecycle(AbstractRegistryBroker.java:88)
+	at org.mule.registry.MuleRegistryHelper.fireLifecycle(MuleRegistryHelper.java:141)
+	at org.mule.lifecycle.MuleContextLifecycleManager$MuleContextLifecycleCallback.onTransition(MuleContextLifecycleManager.java:91)
+	at org.mule.lifecycle.MuleContextLifecycleManager$MuleContextLifecycleCallback.onTransition(MuleContextLifecycleManager.java:87)
+	at org.mule.lifecycle.MuleContextLifecycleManager.invokePhase(MuleContextLifecycleManager.java:69)
+	at org.mule.lifecycle.MuleContextLifecycleManager.fireLifecycle(MuleContextLifecycleManager.java:61)
+	at org.mule.DefaultMuleContext.start(DefaultMuleContext.java:317)
+	at org.mule.module.launcher.application.DefaultMuleApplication.start(DefaultMuleApplication.java:139)
+	at org.mule.module.launcher.artifact.ArtifactWrapper$4.execute(ArtifactWrapper.java:105)
+	at org.mule.module.launcher.artifact.ArtifactWrapper.executeWithinArtifactClassLoader(ArtifactWrapper.java:136)
+	at org.mule.module.launcher.artifact.ArtifactWrapper.start(ArtifactWrapper.java:100)
+	at org.mule.module.launcher.DefaultArtifactDeployer.deploy(DefaultArtifactDeployer.java:26)
+	at org.mule.module.launcher.DefaultArchiveDeployer.deployArtifact(DefaultArchiveDeployer.java:317)
+	at org.mule.module.launcher.DefaultArchiveDeployer.deployPackagedArtifact(DefaultArchiveDeployer.java:172)
+	at org.mule.module.launcher.DefaultArchiveDeployer.deployPackagedArtifact(DefaultArchiveDeployer.java:261)
+	at org.mule.module.launcher.DefaultArchiveDeployer.deployPackagedArtifact(DefaultArchiveDeployer.java:76)
+	at org.mule.module.launcher.DeploymentDirectoryWatcher.deployPackedApps(DeploymentDirectoryWatcher.java:279)
+	at org.mule.module.launcher.DeploymentDirectoryWatcher.start(DeploymentDirectoryWatcher.java:151)
+	at org.mule.module.launcher.MuleDeploymentService.start(MuleDeploymentService.java:134)
+	at org.mule.module.launcher.MuleContainer.start(MuleContainer.java:172)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.mule.tooling.server.application.ApplicationDeployer.main(ApplicationDeployer.java:33)
+
+********************************************************************************
+
+2018-01-05 13:45:27,687 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Disposing app 'soapadd'                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-01-05 13:45:27,687 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing RegistryBroker
+2018-01-05 13:45:27,687 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Disposing flow: soapaddFlow
+2018-01-05 13:45:27,687 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Disposing service: soapaddFlow.stage1
+2018-01-05 13:45:27,687 [main] INFO  org.mule.component.ComponentLifecycleManager - Disposing component: component.727868092
+2018-01-05 13:45:27,687 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing model: _muleSystemModel
+2018-01-05 13:45:27,852 [main] INFO  org.mule.config.spring.MuleArtifactContext - Closing org.mule.config.spring.MuleArtifactContext@7c901203: startup date [Fri Jan 05 13:45:23 IST 2018]; root of context hierarchy
+2018-01-05 13:45:27,899 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application "soapadd" shut down normally on: 1/5/18 1:45 PM        *
+* Up for: 0 days, 0 hours, 0 mins, 0.269 sec                         *
+**********************************************************************
+2018-01-05 13:48:52,033 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'soapadd'                               +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-01-05 13:48:52,317 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2018-01-05 13:48:52,534 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2018-01-05 13:48:52,718 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2018-01-05 13:48:52,718 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.8)
+2018-01-05 13:48:52,865 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@3d6300e8: startup date [Fri Jan 05 13:48:52 IST 2018]; root of context hierarchy
+2018-01-05 13:48:55,533 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-01-05 13:48:56,684 [main] WARN  org.mule.module.ognl.expression.OgnlExpressionEvaluator - OGNL module is deprecated and will be removed in Mule 4.0. Use MEL expressions instead.
+2018-01-05 13:48:57,819 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-tx-log\tx1.log and C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-tx-log\tx2.log
+2018-01-05 13:48:57,839 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-xa-tx-log\tx1.log and C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-xa-tx-log\tx2.log
+2018-01-05 13:48:57,987 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2018-01-05 13:48:57,987 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: soapaddFlow
+2018-01-05 13:48:57,987 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@1b01a0d
+2018-01-05 13:48:58,034 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: soapaddFlow.stage1
+2018-01-05 13:48:58,641 [main] INFO  org.mule.module.cxf.config.WebServiceFactoryBean - Built CXF Inbound MessageProcessor for service class soapadd.addclass
+2018-01-05 13:48:59,424 [main] INFO  org.mule.component.ComponentLifecycleManager - Initialising component: component.356539350
+2018-01-05 13:48:59,926 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Users\M1043231\AnypointStudio\workspace\.mule\apps\soapadd\soapadd.xml'}]"
+2018-01-05 13:48:59,926 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Users\M1043231\AnypointStudio\workspace\.mule\apps\soapadd\soapadd.xml'}]"
+2018-01-05 13:49:02,987 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'soapadd'                                   +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-01-05 13:49:02,996 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2018-01-05 13:49:02,996 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2018-01-05 13:49:03,058 [main] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://localhost:8081
+2018-01-05 13:49:03,058 [main] INFO  org.mule.modules.oauth2.provider.agents.DefaultSplashScreenAgent - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ DevKit Extensions (0) used in this application 
+                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-01-05 13:49:03,074 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2018-01-05 13:49:03,074 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: soapaddFlow
+2018-01-05 13:49:03,074 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: soapaddFlow.stage1
+2018-01-05 13:49:03,074 [main] INFO  org.mule.component.ComponentLifecycleManager - Starting component: component.356539350
+2018-01-05 13:49:03,137 [main] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2018-01-05 13:49:03,168 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: soapadd                                               *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   DevKit Extension Information                                     *
+*   JMX Agent                                                        *
+*   Batch module default engine                                      *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2018-01-05 13:54:04,598 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Stopping app 'soapadd'                                   +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-01-05 13:54:04,598 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Stopping flow: soapaddFlow
+2018-01-05 13:54:04,598 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Stopping service: soapaddFlow.stage1
+2018-01-05 13:54:04,740 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.component.ComponentLifecycleManager - Stopping component: component.356539350
+2018-01-05 13:54:04,743 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Stopping model: _muleSystemModel
+2018-01-05 13:54:04,781 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Stopped listener on http://localhost:8081
+2018-01-05 13:54:04,781 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Stopping ResourceManager
+2018-01-05 13:54:04,781 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Stopped ResourceManager
+2018-01-05 13:54:04,797 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Disposing app 'soapadd'                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-01-05 13:54:04,797 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing RegistryBroker
+2018-01-05 13:54:04,797 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Disposing flow: soapaddFlow
+2018-01-05 13:54:04,797 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Disposing service: soapaddFlow.stage1
+2018-01-05 13:54:04,812 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.component.ComponentLifecycleManager - Disposing component: component.356539350
+2018-01-05 13:54:04,812 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing model: _muleSystemModel
+2018-01-05 13:54:05,061 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.MuleArtifactContext - Closing org.mule.config.spring.MuleArtifactContext@3d6300e8: startup date [Fri Jan 05 13:48:52 IST 2018]; root of context hierarchy
+2018-01-05 13:54:05,162 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application "soapadd" shut down normally on: 1/5/18 1:54 PM        *
+* Up for: 0 days, 0 hours, 5 mins, 2.168 sec                         *
+**********************************************************************
+2018-01-05 13:54:05,312 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'soapadd'                               +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-01-05 13:54:05,312 [Mule.app.deployer.monitor.1.thread.1] WARN  com.mulesoft.module.client.APIPlatformClientCoreExtension - Client ID or Client Secret were not provided. API Manager client is DISABLED for app soapadd
+2018-01-05 13:54:05,328 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2018-01-05 13:54:05,328 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2018-01-05 13:54:05,359 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2018-01-05 13:54:05,359 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.8)
+2018-01-05 13:54:05,375 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@636083ed: startup date [Fri Jan 05 13:54:05 IST 2018]; root of context hierarchy
+2018-01-05 13:54:05,796 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-01-05 13:54:06,013 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-tx-log\tx1.log and C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-tx-log\tx2.log
+2018-01-05 13:54:06,013 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-xa-tx-log\tx1.log and C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-xa-tx-log\tx2.log
+2018-01-05 13:54:06,044 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2018-01-05 13:54:06,060 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: soapaddFlow
+2018-01-05 13:54:06,060 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@36914d53
+2018-01-05 13:54:06,060 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: soapaddFlow.stage1
+2018-01-05 13:54:06,107 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.cxf.config.WebServiceFactoryBean - Built CXF Inbound MessageProcessor for service class soapadd.addclass
+2018-01-05 13:54:06,162 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.component.ComponentLifecycleManager - Initialising component: component.45423283
+2018-01-05 13:54:06,247 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Users\M1043231\AnypointStudio\workspace\.mule\apps\soapadd\soapadd.xml'}]"
+2018-01-05 13:54:06,249 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Users\M1043231\AnypointStudio\workspace\.mule\apps\soapadd\soapadd.xml'}]"
+2018-01-05 13:54:09,260 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'soapadd'                                   +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-01-05 13:54:09,266 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2018-01-05 13:54:09,266 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2018-01-05 13:54:09,313 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://localhost:8081
+2018-01-05 13:54:09,313 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.modules.oauth2.provider.agents.DefaultSplashScreenAgent - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ DevKit Extensions (0) used in this application 
+                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-01-05 13:54:09,313 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2018-01-05 13:54:09,329 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: soapaddFlow
+2018-01-05 13:54:09,329 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: soapaddFlow.stage1
+2018-01-05 13:54:09,329 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.component.ComponentLifecycleManager - Starting component: component.45423283
+2018-01-05 13:54:09,345 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2018-01-05 13:54:09,345 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: soapadd                                               *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   DevKit Extension Information                                     *
+*   JMX Agent                                                        *
+*   Batch module default engine                                      *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2018-01-05 13:56:11,356 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'soapadd'                               +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-01-05 13:56:11,622 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2018-01-05 13:56:11,794 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2018-01-05 13:56:11,995 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2018-01-05 13:56:11,997 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.8)
+2018-01-05 13:56:12,107 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@3d6300e8: startup date [Fri Jan 05 13:56:12 IST 2018]; root of context hierarchy
+2018-01-05 13:56:14,167 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-01-05 13:56:15,175 [main] WARN  org.mule.module.ognl.expression.OgnlExpressionEvaluator - OGNL module is deprecated and will be removed in Mule 4.0. Use MEL expressions instead.
+2018-01-05 13:56:16,218 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-tx-log\tx1.log and C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-tx-log\tx2.log
+2018-01-05 13:56:16,260 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-xa-tx-log\tx1.log and C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-xa-tx-log\tx2.log
+2018-01-05 13:56:16,416 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2018-01-05 13:56:16,416 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: soapaddFlow
+2018-01-05 13:56:16,416 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@1b01a0d
+2018-01-05 13:56:16,478 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: soapaddFlow.stage1
+2018-01-05 13:56:17,026 [main] INFO  org.mule.module.cxf.config.WebServiceFactoryBean - Built CXF Inbound MessageProcessor for service class soapadd.addclass
+2018-01-05 13:56:17,887 [main] INFO  org.mule.component.ComponentLifecycleManager - Initialising component: component.356539350
+2018-01-05 13:56:18,411 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Users\M1043231\AnypointStudio\workspace\.mule\apps\soapadd\soapadd.xml'}]"
+2018-01-05 13:56:18,411 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Users\M1043231\AnypointStudio\workspace\.mule\apps\soapadd\soapadd.xml'}]"
+2018-01-05 13:56:21,464 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'soapadd'                                   +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-01-05 13:56:21,472 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2018-01-05 13:56:21,472 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2018-01-05 13:56:21,534 [main] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://localhost:8081
+2018-01-05 13:56:21,550 [main] INFO  org.mule.modules.oauth2.provider.agents.DefaultSplashScreenAgent - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ DevKit Extensions (0) used in this application 
+                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-01-05 13:56:21,550 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2018-01-05 13:56:21,550 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: soapaddFlow
+2018-01-05 13:56:21,550 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: soapaddFlow.stage1
+2018-01-05 13:56:21,550 [main] INFO  org.mule.component.ComponentLifecycleManager - Starting component: component.356539350
+2018-01-05 13:56:21,612 [main] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2018-01-05 13:56:21,647 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: soapadd                                               *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   DevKit Extension Information                                     *
+*   JMX Agent                                                        *
+*   Batch module default engine                                      *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2018-01-05 14:05:00,387 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'soapadd'                               +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-01-05 14:05:00,409 [main] WARN  com.mulesoft.module.client.APIPlatformClientCoreExtension - Client ID or Client Secret were not provided. API Manager client is DISABLED for app additionconsume
+2018-01-05 14:05:00,412 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2018-01-05 14:05:00,412 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2018-01-05 14:05:00,444 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2018-01-05 14:05:00,444 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.8)
+2018-01-05 14:05:00,444 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@53cddaf8: startup date [Fri Jan 05 14:05:00 IST 2018]; root of context hierarchy
+2018-01-05 14:05:00,944 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-01-05 14:05:01,198 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-tx-log\tx1.log and C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-tx-log\tx2.log
+2018-01-05 14:05:01,209 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-xa-tx-log\tx1.log and C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-xa-tx-log\tx2.log
+2018-01-05 14:05:01,235 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2018-01-05 14:05:01,239 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: soapaddFlow
+2018-01-05 14:05:01,241 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@915d7c4
+2018-01-05 14:05:01,254 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: soapaddFlow.stage1
+2018-01-05 14:05:01,296 [main] INFO  org.mule.module.cxf.config.WebServiceFactoryBean - Built CXF Inbound MessageProcessor for service class soapadd.addclass
+2018-01-05 14:05:01,888 [main] INFO  org.mule.component.ComponentLifecycleManager - Initialising component: component.1360209172
+2018-01-05 14:05:01,976 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Users\M1043231\AnypointStudio\workspace\.mule\apps\soapadd\soapadd.xml'}]"
+2018-01-05 14:05:01,976 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Users\M1043231\AnypointStudio\workspace\.mule\apps\soapadd\soapadd.xml'}]"
+2018-01-05 14:05:04,990 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'soapadd'                                   +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-01-05 14:05:04,995 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2018-01-05 14:05:04,995 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2018-01-05 14:05:05,074 [main] ERROR org.mule.module.launcher.application.DefaultMuleApplication - 
+********************************************************************************
+Message               : Failed to invoke lifecycle phase "start" on object: org.mule.module.http.internal.listener.DefaultHttpListenerConfig@416a4275
+Element               : /HTTP_Listener_Configuration @ app:soapadd.xml:10 (HTTP Listener Configuration)
+--------------------------------------------------------------------------------
+Root Exception stack trace:
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at org.glassfish.grizzly.nio.transport.TCPNIOBindingHandler.bindToChannelAndAddress(TCPNIOBindingHandler.java:131)
+	at org.glassfish.grizzly.nio.transport.TCPNIOBindingHandler.bind(TCPNIOBindingHandler.java:88)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.bind(TCPNIOTransport.java:239)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.bind(TCPNIOTransport.java:219)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.bind(TCPNIOTransport.java:210)
+	at org.mule.module.http.internal.listener.grizzly.GrizzlyServer.start(GrizzlyServer.java:41)
+	at org.mule.module.http.internal.listener.DefaultHttpListenerConfig.start(DefaultHttpListenerConfig.java:274)
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.mule.lifecycle.phases.DefaultLifecyclePhase.applyLifecycle(DefaultLifecyclePhase.java:237)
+	at org.mule.lifecycle.RegistryLifecycleCallback.doApplyLifecycle(RegistryLifecycleCallback.java:99)
+	at org.mule.lifecycle.RegistryLifecycleCallback.onTransition(RegistryLifecycleCallback.java:71)
+	at org.mule.lifecycle.RegistryLifecycleManager.invokePhase(RegistryLifecycleManager.java:155)
+	at org.mule.lifecycle.RegistryLifecycleManager.fireLifecycle(RegistryLifecycleManager.java:126)
+	at org.mule.registry.AbstractRegistryBroker.fireLifecycle(AbstractRegistryBroker.java:88)
+	at org.mule.registry.MuleRegistryHelper.fireLifecycle(MuleRegistryHelper.java:141)
+	at org.mule.lifecycle.MuleContextLifecycleManager$MuleContextLifecycleCallback.onTransition(MuleContextLifecycleManager.java:91)
+	at org.mule.lifecycle.MuleContextLifecycleManager$MuleContextLifecycleCallback.onTransition(MuleContextLifecycleManager.java:87)
+	at org.mule.lifecycle.MuleContextLifecycleManager.invokePhase(MuleContextLifecycleManager.java:69)
+	at org.mule.lifecycle.MuleContextLifecycleManager.fireLifecycle(MuleContextLifecycleManager.java:61)
+	at org.mule.DefaultMuleContext.start(DefaultMuleContext.java:317)
+	at org.mule.module.launcher.application.DefaultMuleApplication.start(DefaultMuleApplication.java:139)
+	at org.mule.module.launcher.artifact.ArtifactWrapper$4.execute(ArtifactWrapper.java:105)
+	at org.mule.module.launcher.artifact.ArtifactWrapper.executeWithinArtifactClassLoader(ArtifactWrapper.java:136)
+	at org.mule.module.launcher.artifact.ArtifactWrapper.start(ArtifactWrapper.java:100)
+	at org.mule.module.launcher.DefaultArtifactDeployer.deploy(DefaultArtifactDeployer.java:26)
+	at org.mule.module.launcher.DefaultArchiveDeployer.deployArtifact(DefaultArchiveDeployer.java:317)
+	at org.mule.module.launcher.DefaultArchiveDeployer.deployPackagedArtifact(DefaultArchiveDeployer.java:172)
+	at org.mule.module.launcher.DefaultArchiveDeployer.deployPackagedArtifact(DefaultArchiveDeployer.java:261)
+	at org.mule.module.launcher.DefaultArchiveDeployer.deployPackagedArtifact(DefaultArchiveDeployer.java:76)
+	at org.mule.module.launcher.DeploymentDirectoryWatcher.deployPackedApps(DeploymentDirectoryWatcher.java:279)
+	at org.mule.module.launcher.DeploymentDirectoryWatcher.start(DeploymentDirectoryWatcher.java:151)
+	at org.mule.module.launcher.MuleDeploymentService.start(MuleDeploymentService.java:134)
+	at org.mule.module.launcher.MuleContainer.start(MuleContainer.java:172)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.mule.tooling.server.application.ApplicationDeployer.main(ApplicationDeployer.java:33)
+
+********************************************************************************
+
+2018-01-05 14:05:05,074 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Disposing app 'soapadd'                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-01-05 14:05:05,074 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing RegistryBroker
+2018-01-05 14:05:05,074 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Disposing flow: soapaddFlow
+2018-01-05 14:05:05,074 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Disposing service: soapaddFlow.stage1
+2018-01-05 14:05:05,074 [main] INFO  org.mule.component.ComponentLifecycleManager - Disposing component: component.1360209172
+2018-01-05 14:05:05,074 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing model: _muleSystemModel
+2018-01-05 14:05:05,250 [main] INFO  org.mule.config.spring.MuleArtifactContext - Closing org.mule.config.spring.MuleArtifactContext@53cddaf8: startup date [Fri Jan 05 14:05:00 IST 2018]; root of context hierarchy
+2018-01-05 14:05:05,401 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application "soapadd" shut down normally on: 1/5/18 2:05 PM        *
+* Up for: 0 days, 0 hours, 0 mins, 0.393 sec                         *
+**********************************************************************
+2018-01-05 14:05:51,410 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'soapadd'                               +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-01-05 14:05:51,418 [main] WARN  com.mulesoft.module.client.APIPlatformClientCoreExtension - Client ID or Client Secret were not provided. API Manager client is DISABLED for app additionconsume
+2018-01-05 14:05:51,422 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2018-01-05 14:05:51,422 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2018-01-05 14:05:51,454 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2018-01-05 14:05:51,454 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.8)
+2018-01-05 14:05:51,454 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@79f5a6ed: startup date [Fri Jan 05 14:05:51 IST 2018]; root of context hierarchy
+2018-01-05 14:05:51,918 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-01-05 14:05:52,168 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-tx-log\tx1.log and C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-tx-log\tx2.log
+2018-01-05 14:05:52,172 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-xa-tx-log\tx1.log and C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-xa-tx-log\tx2.log
+2018-01-05 14:05:52,188 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2018-01-05 14:05:52,188 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: soapaddFlow
+2018-01-05 14:05:52,188 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@6313b441
+2018-01-05 14:05:52,203 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: soapaddFlow.stage1
+2018-01-05 14:05:52,252 [main] INFO  org.mule.module.cxf.config.WebServiceFactoryBean - Built CXF Inbound MessageProcessor for service class soapadd.addclass
+2018-01-05 14:05:52,913 [main] INFO  org.mule.component.ComponentLifecycleManager - Initialising component: component.2122408314
+2018-01-05 14:05:52,960 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Users\M1043231\AnypointStudio\workspace\.mule\apps\soapadd\soapadd.xml'}]"
+2018-01-05 14:05:52,960 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Users\M1043231\AnypointStudio\workspace\.mule\apps\soapadd\soapadd.xml'}]"
+2018-01-05 14:05:55,976 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'soapadd'                                   +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-01-05 14:05:55,984 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2018-01-05 14:05:55,984 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2018-01-05 14:05:56,046 [main] ERROR org.mule.module.launcher.application.DefaultMuleApplication - 
+********************************************************************************
+Message               : Failed to invoke lifecycle phase "start" on object: org.mule.module.http.internal.listener.DefaultHttpListenerConfig@4b343b6d
+Element               : /HTTP_Listener_Configuration @ app:soapadd.xml:10 (HTTP Listener Configuration)
+--------------------------------------------------------------------------------
+Root Exception stack trace:
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at org.glassfish.grizzly.nio.transport.TCPNIOBindingHandler.bindToChannelAndAddress(TCPNIOBindingHandler.java:131)
+	at org.glassfish.grizzly.nio.transport.TCPNIOBindingHandler.bind(TCPNIOBindingHandler.java:88)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.bind(TCPNIOTransport.java:239)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.bind(TCPNIOTransport.java:219)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.bind(TCPNIOTransport.java:210)
+	at org.mule.module.http.internal.listener.grizzly.GrizzlyServer.start(GrizzlyServer.java:41)
+	at org.mule.module.http.internal.listener.DefaultHttpListenerConfig.start(DefaultHttpListenerConfig.java:274)
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.mule.lifecycle.phases.DefaultLifecyclePhase.applyLifecycle(DefaultLifecyclePhase.java:237)
+	at org.mule.lifecycle.RegistryLifecycleCallback.doApplyLifecycle(RegistryLifecycleCallback.java:99)
+	at org.mule.lifecycle.RegistryLifecycleCallback.onTransition(RegistryLifecycleCallback.java:71)
+	at org.mule.lifecycle.RegistryLifecycleManager.invokePhase(RegistryLifecycleManager.java:155)
+	at org.mule.lifecycle.RegistryLifecycleManager.fireLifecycle(RegistryLifecycleManager.java:126)
+	at org.mule.registry.AbstractRegistryBroker.fireLifecycle(AbstractRegistryBroker.java:88)
+	at org.mule.registry.MuleRegistryHelper.fireLifecycle(MuleRegistryHelper.java:141)
+	at org.mule.lifecycle.MuleContextLifecycleManager$MuleContextLifecycleCallback.onTransition(MuleContextLifecycleManager.java:91)
+	at org.mule.lifecycle.MuleContextLifecycleManager$MuleContextLifecycleCallback.onTransition(MuleContextLifecycleManager.java:87)
+	at org.mule.lifecycle.MuleContextLifecycleManager.invokePhase(MuleContextLifecycleManager.java:69)
+	at org.mule.lifecycle.MuleContextLifecycleManager.fireLifecycle(MuleContextLifecycleManager.java:61)
+	at org.mule.DefaultMuleContext.start(DefaultMuleContext.java:317)
+	at org.mule.module.launcher.application.DefaultMuleApplication.start(DefaultMuleApplication.java:139)
+	at org.mule.module.launcher.artifact.ArtifactWrapper$4.execute(ArtifactWrapper.java:105)
+	at org.mule.module.launcher.artifact.ArtifactWrapper.executeWithinArtifactClassLoader(ArtifactWrapper.java:136)
+	at org.mule.module.launcher.artifact.ArtifactWrapper.start(ArtifactWrapper.java:100)
+	at org.mule.module.launcher.DefaultArtifactDeployer.deploy(DefaultArtifactDeployer.java:26)
+	at org.mule.module.launcher.DefaultArchiveDeployer.deployArtifact(DefaultArchiveDeployer.java:317)
+	at org.mule.module.launcher.DefaultArchiveDeployer.deployPackagedArtifact(DefaultArchiveDeployer.java:172)
+	at org.mule.module.launcher.DefaultArchiveDeployer.deployPackagedArtifact(DefaultArchiveDeployer.java:261)
+	at org.mule.module.launcher.DefaultArchiveDeployer.deployPackagedArtifact(DefaultArchiveDeployer.java:76)
+	at org.mule.module.launcher.DeploymentDirectoryWatcher.deployPackedApps(DeploymentDirectoryWatcher.java:279)
+	at org.mule.module.launcher.DeploymentDirectoryWatcher.start(DeploymentDirectoryWatcher.java:151)
+	at org.mule.module.launcher.MuleDeploymentService.start(MuleDeploymentService.java:134)
+	at org.mule.module.launcher.MuleContainer.start(MuleContainer.java:172)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.mule.tooling.server.application.ApplicationDeployer.main(ApplicationDeployer.java:33)
+
+********************************************************************************
+
+2018-01-05 14:05:56,046 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Disposing app 'soapadd'                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-01-05 14:05:56,046 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing RegistryBroker
+2018-01-05 14:05:56,046 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Disposing flow: soapaddFlow
+2018-01-05 14:05:56,046 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Disposing service: soapaddFlow.stage1
+2018-01-05 14:05:56,046 [main] INFO  org.mule.component.ComponentLifecycleManager - Disposing component: component.2122408314
+2018-01-05 14:05:56,062 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing model: _muleSystemModel
+2018-01-05 14:05:56,260 [main] INFO  org.mule.config.spring.MuleArtifactContext - Closing org.mule.config.spring.MuleArtifactContext@79f5a6ed: startup date [Fri Jan 05 14:05:51 IST 2018]; root of context hierarchy
+2018-01-05 14:05:56,402 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application "soapadd" shut down normally on: 1/5/18 2:05 PM        *
+* Up for: 0 days, 0 hours, 0 mins, 0.406 sec                         *
+**********************************************************************
+2018-01-05 14:06:11,261 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'soapadd'                               +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-01-05 14:06:11,513 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2018-01-05 14:06:11,672 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2018-01-05 14:06:11,853 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2018-01-05 14:06:11,863 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.8)
+2018-01-05 14:06:12,019 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@3d6300e8: startup date [Fri Jan 05 14:06:12 IST 2018]; root of context hierarchy
+2018-01-05 14:06:14,492 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-01-05 14:06:15,604 [main] WARN  org.mule.module.ognl.expression.OgnlExpressionEvaluator - OGNL module is deprecated and will be removed in Mule 4.0. Use MEL expressions instead.
+2018-01-05 14:06:16,688 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-tx-log\tx1.log and C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-tx-log\tx2.log
+2018-01-05 14:06:16,716 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-xa-tx-log\tx1.log and C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-xa-tx-log\tx2.log
+2018-01-05 14:06:16,869 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2018-01-05 14:06:16,869 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: soapaddFlow
+2018-01-05 14:06:16,869 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@1b01a0d
+2018-01-05 14:06:16,929 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: soapaddFlow.stage1
+2018-01-05 14:06:17,385 [main] INFO  org.mule.module.cxf.config.WebServiceFactoryBean - Built CXF Inbound MessageProcessor for service class soapadd.addclass
+2018-01-05 14:06:18,260 [main] INFO  org.mule.component.ComponentLifecycleManager - Initialising component: component.356539350
+2018-01-05 14:06:18,633 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Users\M1043231\AnypointStudio\workspace\.mule\apps\soapadd\soapadd.xml'}]"
+2018-01-05 14:06:18,633 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Users\M1043231\AnypointStudio\workspace\.mule\apps\soapadd\soapadd.xml'}]"
+2018-01-05 14:06:21,672 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'soapadd'                                   +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-01-05 14:06:21,682 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2018-01-05 14:06:21,682 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2018-01-05 14:06:21,760 [main] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://localhost:8081
+2018-01-05 14:06:21,760 [main] INFO  org.mule.modules.oauth2.provider.agents.DefaultSplashScreenAgent - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ DevKit Extensions (0) used in this application 
+                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-01-05 14:06:21,760 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2018-01-05 14:06:21,760 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: soapaddFlow
+2018-01-05 14:06:21,760 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: soapaddFlow.stage1
+2018-01-05 14:06:21,775 [main] INFO  org.mule.component.ComponentLifecycleManager - Starting component: component.356539350
+2018-01-05 14:06:21,853 [main] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2018-01-05 14:06:21,917 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: soapadd                                               *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   DevKit Extension Information                                     *
+*   JMX Agent                                                        *
+*   Batch module default engine                                      *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2018-01-05 14:07:23,963 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'soapadd'                               +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-01-05 14:07:23,963 [main] WARN  com.mulesoft.module.client.APIPlatformClientCoreExtension - Client ID or Client Secret were not provided. API Manager client is DISABLED for app additionconsume
+2018-01-05 14:07:23,963 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2018-01-05 14:07:23,978 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2018-01-05 14:07:24,010 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2018-01-05 14:07:24,010 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.8)
+2018-01-05 14:07:24,025 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@7c901203: startup date [Fri Jan 05 14:07:24 IST 2018]; root of context hierarchy
+2018-01-05 14:07:24,574 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-01-05 14:07:24,938 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-tx-log\tx1.log and C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-tx-log\tx2.log
+2018-01-05 14:07:24,954 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-xa-tx-log\tx1.log and C:\Users\M1043231\AnypointStudio\workspace\.mule\.\.mule\soapadd\queue-xa-tx-log\tx2.log
+2018-01-05 14:07:24,969 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2018-01-05 14:07:24,969 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: soapaddFlow
+2018-01-05 14:07:24,969 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@915d7c4
+2018-01-05 14:07:24,985 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: soapaddFlow.stage1
+2018-01-05 14:07:25,047 [main] INFO  org.mule.module.cxf.config.WebServiceFactoryBean - Built CXF Inbound MessageProcessor for service class soapadd.addclass
+2018-01-05 14:07:25,723 [main] INFO  org.mule.component.ComponentLifecycleManager - Initialising component: component.727868092
+2018-01-05 14:07:25,778 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Users\M1043231\AnypointStudio\workspace\.mule\apps\soapadd\soapadd.xml'}]"
+2018-01-05 14:07:25,778 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Users\M1043231\AnypointStudio\workspace\.mule\apps\soapadd\soapadd.xml'}]"
+2018-01-05 14:07:28,794 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'soapadd'                                   +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-01-05 14:07:28,800 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2018-01-05 14:07:28,800 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2018-01-05 14:07:28,863 [main] ERROR org.mule.module.launcher.application.DefaultMuleApplication - 
+********************************************************************************
+Message               : Failed to invoke lifecycle phase "start" on object: org.mule.module.http.internal.listener.DefaultHttpListenerConfig@c6a692e
+Element               : /HTTP_Listener_Configuration @ app:soapadd.xml:10 (HTTP Listener Configuration)
+--------------------------------------------------------------------------------
+Root Exception stack trace:
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at org.glassfish.grizzly.nio.transport.TCPNIOBindingHandler.bindToChannelAndAddress(TCPNIOBindingHandler.java:131)
+	at org.glassfish.grizzly.nio.transport.TCPNIOBindingHandler.bind(TCPNIOBindingHandler.java:88)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.bind(TCPNIOTransport.java:239)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.bind(TCPNIOTransport.java:219)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.bind(TCPNIOTransport.java:210)
+	at org.mule.module.http.internal.listener.grizzly.GrizzlyServer.start(GrizzlyServer.java:41)
+	at org.mule.module.http.internal.listener.DefaultHttpListenerConfig.start(DefaultHttpListenerConfig.java:274)
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.mule.lifecycle.phases.DefaultLifecyclePhase.applyLifecycle(DefaultLifecyclePhase.java:237)
+	at org.mule.lifecycle.RegistryLifecycleCallback.doApplyLifecycle(RegistryLifecycleCallback.java:99)
+	at org.mule.lifecycle.RegistryLifecycleCallback.onTransition(RegistryLifecycleCallback.java:71)
+	at org.mule.lifecycle.RegistryLifecycleManager.invokePhase(RegistryLifecycleManager.java:155)
+	at org.mule.lifecycle.RegistryLifecycleManager.fireLifecycle(RegistryLifecycleManager.java:126)
+	at org.mule.registry.AbstractRegistryBroker.fireLifecycle(AbstractRegistryBroker.java:88)
+	at org.mule.registry.MuleRegistryHelper.fireLifecycle(MuleRegistryHelper.java:141)
+	at org.mule.lifecycle.MuleContextLifecycleManager$MuleContextLifecycleCallback.onTransition(MuleContextLifecycleManager.java:91)
+	at org.mule.lifecycle.MuleContextLifecycleManager$MuleContextLifecycleCallback.onTransition(MuleContextLifecycleManager.java:87)
+	at org.mule.lifecycle.MuleContextLifecycleManager.invokePhase(MuleContextLifecycleManager.java:69)
+	at org.mule.lifecycle.MuleContextLifecycleManager.fireLifecycle(MuleContextLifecycleManager.java:61)
+	at org.mule.DefaultMuleContext.start(DefaultMuleContext.java:317)
+	at org.mule.module.launcher.application.DefaultMuleApplication.start(DefaultMuleApplication.java:139)
+	at org.mule.module.launcher.artifact.ArtifactWrapper$4.execute(ArtifactWrapper.java:105)
+	at org.mule.module.launcher.artifact.ArtifactWrapper.executeWithinArtifactClassLoader(ArtifactWrapper.java:136)
+	at org.mule.module.launcher.artifact.ArtifactWrapper.start(ArtifactWrapper.java:100)
+	at org.mule.module.launcher.DefaultArtifactDeployer.deploy(DefaultArtifactDeployer.java:26)
+	at org.mule.module.launcher.DefaultArchiveDeployer.deployArtifact(DefaultArchiveDeployer.java:317)
+	at org.mule.module.launcher.DefaultArchiveDeployer.deployPackagedArtifact(DefaultArchiveDeployer.java:172)
+	at org.mule.module.launcher.DefaultArchiveDeployer.deployPackagedArtifact(DefaultArchiveDeployer.java:261)
+	at org.mule.module.launcher.DefaultArchiveDeployer.deployPackagedArtifact(DefaultArchiveDeployer.java:76)
+	at org.mule.module.launcher.DeploymentDirectoryWatcher.deployPackedApps(DeploymentDirectoryWatcher.java:279)
+	at org.mule.module.launcher.DeploymentDirectoryWatcher.start(DeploymentDirectoryWatcher.java:151)
+	at org.mule.module.launcher.MuleDeploymentService.start(MuleDeploymentService.java:134)
+	at org.mule.module.launcher.MuleContainer.start(MuleContainer.java:172)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.mule.tooling.server.application.ApplicationDeployer.main(ApplicationDeployer.java:33)
+
+********************************************************************************
+
+2018-01-05 14:07:28,863 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Disposing app 'soapadd'                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-01-05 14:07:28,863 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing RegistryBroker
+2018-01-05 14:07:28,863 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Disposing flow: soapaddFlow
+2018-01-05 14:07:28,863 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Disposing service: soapaddFlow.stage1
+2018-01-05 14:07:28,863 [main] INFO  org.mule.component.ComponentLifecycleManager - Disposing component: component.727868092
+2018-01-05 14:07:28,863 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing model: _muleSystemModel
+2018-01-05 14:07:29,041 [main] INFO  org.mule.config.spring.MuleArtifactContext - Closing org.mule.config.spring.MuleArtifactContext@7c901203: startup date [Fri Jan 05 14:07:24 IST 2018]; root of context hierarchy
+2018-01-05 14:07:29,261 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application "soapadd" shut down normally on: 1/5/18 2:07 PM        *
+* Up for: 0 days, 0 hours, 0 mins, 0.459 sec                         *
+**********************************************************************

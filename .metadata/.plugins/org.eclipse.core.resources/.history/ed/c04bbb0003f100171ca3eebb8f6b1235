@@ -1,0 +1,5 @@
+#Thu Jan 04 09:23:55 IST 2018
+encoding=UTF-8
+domain=default
+redeployment.enabled=true
+config.resources=global.xml,rest-consume-mulesoft.xml,american-flights-api.xml

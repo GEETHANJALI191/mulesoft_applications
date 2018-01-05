@@ -1,0 +1,11 @@
+package com.main;
+
+public class Hello implements HelloInterface {
+
+	@Override
+	public String helloDisplay() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

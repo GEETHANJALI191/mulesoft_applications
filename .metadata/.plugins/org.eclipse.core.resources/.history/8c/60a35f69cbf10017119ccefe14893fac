@@ -1,0 +1,6 @@
+package soapadd;
+
+public class Implementation implements addclass{
+	@override
+
+}

@@ -1,0 +1,5 @@
+authenticated.users=[{"token"\:"7bb28c48-fbcc-48af-a682-69e8b6839eac","userId"\:"geethanjali_bm","refreshToken"\:"","baseUrl"\:"https\://anypoint.mulesoft.com/"}]
+current.token=7bb28c48-fbcc-48af-a682-69e8b6839eac
+current.user=geethanjali_bm
+eclipse.preferences.version=1
+org.mule.tooling.amc.apps={"userProjectMap"\:{"geethanjali_bm"\:{"american-flight-ws"\:"{\\"applicationName\\"\:\\"american-flight-ws-geetha\\",\\"muleRuntime\\"\:\\"3.8.5\\",\\"properties\\"\:{\\"env\\"\:\\"DEV\\"}}"}}}
